@@ -751,6 +751,9 @@ b {
   .ex-big{
     font-size: 6rem;
   }
+  .byjus-big{
+    font-size: 6rem;
+  }
 }
 @media(max-width:500px){
    .ball-image{
