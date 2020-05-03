@@ -757,6 +757,9 @@ b {
   .smart-fade{
     font-size: 6rem;
   }
+  .hero-button{
+    padding: 1.7rem 3rem;
+  }
 }
 @media(max-width:500px){
    .ball-image{
