@@ -589,7 +589,7 @@ b {
 }
 .wood-image{
   position: absolute;
-  right:-20%;
+  right:0%;
   bottom:-25%;
 }
 .pencil-image{
@@ -610,7 +610,7 @@ b {
   }
   .wood-image{
     position: absolute;
-    right:-40%;
+    right:0%;
     bottom:-25%;
   }
   .byjus-image{
@@ -733,12 +733,12 @@ b {
 }
 .glasses-image{
   position: absolute;
-  right:-5%;
+  right:0%;
   top:-10%;
 }
 .ball-image{
   position: absolute;
-  right:-5%;
+  right:0%;
   bottom:0;
 }
 .ex-big{
