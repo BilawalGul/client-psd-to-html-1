@@ -748,6 +748,9 @@ b {
   .extream-section{
     padding-bottom: 30rem;
   }
+  .ex-big{
+    font-size: 6rem;
+  }
 }
 @media(max-width:500px){
    .ball-image{
