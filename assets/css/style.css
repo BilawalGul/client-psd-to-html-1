@@ -2,10 +2,10 @@
   font-family: chawp;
   src: url("../fonts/chawp.ttf");
 }
-@font-face {
+/* @font-face {
   font-family: Gilroy-Regular;
   src: url("../fonts/Gilroy-Regular.ttf");
-}
+} */
 @font-face {
   font-family: CFBlackboardPersonal-Regula;
   src: url("../fonts/CFBlackboardPersonal-Regula.ttf");
@@ -47,6 +47,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   /* overflow: hidden; */
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -132,12 +133,14 @@ b {
   font-weight: 300;
   letter-spacing: 2px;
   font-family: var(--cfb-font);
+  letter-spacing: 0px !important;
 }
 .action-touch {
   background: var(--white-color);
 
   padding: 0.5rem 2rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 .action-touch > a {
   text-decoration: none;
@@ -838,4 +841,28 @@ line-height: 3.4rem;
   color:var(--white-color);
   font-family: var(--down-para-font);
   font-size: 1.4rem;
+}
+
+/* modal css */
+.modal-title{
+  font-family: var(--cfb-font);
+  font-size: 3rem;
+}
+.close{
+  color:red;
+  font-size:3.8rem;
+}
+label,input{
+  font-size: 1.8rem;
+  font-family: var(--cfb-font);
+}
+input{
+  height: 3.5rem !important;
+}
+.btn-default{
+  font-size: 1.8rem;
+  font-family: var(--cfb-font);
+  background:#267a3b;
+  padding-top:1rem;
+  color:#fff;
 }
