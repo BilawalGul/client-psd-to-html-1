@@ -403,7 +403,7 @@ b {
   height: 2.5rem;
 }
 .card-heading {
-  font-family: var(--cfb-font);
+  font-family: var(--down-para-font);
   font-size: 2rem;
   color: var(--black-color);
 }
