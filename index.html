@@ -41,12 +41,9 @@
           <ul class="nav-links">
             <li class="nav-items"><a href="#who">Who We Are</a></li>
             <li class="nav-items"><a href="#what">What We Do</a></li>
-            <li class="nav-items"><a href="#client">Clients</a></li>
-            <li class="nav-items"><a href="#our">Our Work</a></li>
-            <li class="nav-items"><a href="#aps">Apps</a></li>
-            <li class="nav-items">
-              <a href="#sm">SMART APPROACH</a>
-            </li>
+            <li class="nav-items"><a href="#Segment">Segment</a></li>
+            <li class="nav-items"><a href="#sm">Smart Approach</a></li>
+            <li class="nav-items"><a href="#mem">Membership</a></li>
           </ul>
 
           <div class="action-touch">
@@ -78,7 +75,7 @@
                 data-toggle="modal"
                 data-target="#myModal"
                 class="hero-button"
-                >TAKE A FREE DIAGNOSIS TEST</a
+                >Get A Counselling Call</a
               >
             </div>
           </div>
@@ -130,6 +127,122 @@
           </p>
         </div>
       </section>
+
+      <!-- card section -->
+      <section class="card-section">
+        <div class="container">
+          <div class="card-row">
+            <div class="card-col">
+              <div class="card-self">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/card/i-1.png"
+                    alt="icon"
+                    class="img-fluid card-icon-image"
+                  />
+                </div>
+                <h4 class="card-heading">Diagnosis Test</h4>
+                <div class="under-line"></div>
+                <p class="text-left card-text">
+                  We will start with a comprehensive test to get answers to the
+                  questions that are important to understand the learning curve.
+                </p>
+              </div>
+            </div>
+            <!-- col-2 -->
+            <div class="card-col">
+              <div class="card-self">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/card/i-2.png"
+                    alt="icon"
+                    class="img-fluid card-icon-image"
+                  />
+                </div>
+                <h4 class="card-heading">Expert Analysis</h4>
+                <div class="under-line"></div>
+                <p class="text-left card-text">
+                  The test will then be assessed by our experts on the panel who
+                  are educators, industry experts, experienced parents to
+                  identify the best options for your child.
+                </p>
+              </div>
+            </div>
+            <!-- col-3 -->
+            <div class="card-col">
+              <div class="card-self">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/card/i-3.png"
+                    alt="icon"
+                    class="img-fluid card-icon-image"
+                  />
+                </div>
+                <h4 class="card-heading">Online Counselling</h4>
+                <div class="under-line"></div>
+                <p class="text-left card-text">
+                  Based on the feedback by our panelists, our counsellor will
+                  get in touch with you to explain the analytics and again try
+                  to gain your feedback for final discussions.
+                </p>
+              </div>
+            </div>
+            <!-- col-4 -->
+            <div class="card-col">
+              <div class="card-self">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/card/i-4.png"
+                    alt="icon"
+                    class="img-fluid card-icon-image"
+                  />
+                </div>
+                <h4 class="card-heading">Best Options</h4>
+                <div class="under-line"></div>
+                <p class="text-left card-text">
+                  Our counsellor will get in touch with the experts to take a
+                  final call on the recommended apps.
+                </p>
+              </div>
+            </div>
+            <!-- col-5 -->
+            <div class="card-col">
+              <div class="card-self">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/card/i-5.png"
+                    alt="icon"
+                    class="img-fluid card-icon-image"
+                  />
+                </div>
+                <h4 class="card-heading">Enrolment Call</h4>
+                <div class="under-line"></div>
+                <p class="text-left card-text">
+                  You directly receive a call from the App customer support team
+                  that is most suitable for your child for enrolment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end card section -->
+
+      <!-- segment section -->
+      <section class="segment-section" id="segment">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="heading-secondary">Segment</h2>
+            <p class="what-are-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit Fuga
+              magnam eos quas assumenda sint Dolorum perspiciatis labore quaerat
+              molestias ex non necessitatibus aperiam neque Libero deleniti
+              eligendi veniam mollitia commodi?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- segment section end -->
 
       <!-- card section -->
       <section class="card-section">
@@ -339,7 +452,7 @@
           </p>
           <div class="contact-button">
             <a href="" data-toggle="modal" data-target="#myModal"
-              >CONTACT US NOW</a
+              >Get A Counselling Call</a
             >
           </div>
         </div>
@@ -425,11 +538,35 @@
               </div>
               <div class="form-group">
                 <label for="contact">Your Contact</label>
-                <input type="text" class="form-control" id="contact" />
+                <input
+                  type="number"
+                  class="form-control"
+                  pattern="/^-?\d+\.?\d*$/"
+                  onKeyPress="if(this.value.length==10) return false;"
+                  id="contact"
+                  required
+                />
               </div>
               <div class="form-group">
-                <label for="clas">Class</label>
-                <input type="text" class="form-control" id="clas" />
+                <label for="st_name">Student Name</label>
+                <input type="text" class="form-control" id="st_name" required />
+              </div>
+              <div class="form-group">
+                <label for="class">Class</label>
+                <select name="class" id="class" class="form-control">
+                  <option value="Class 1">Class 1</option>
+                  <option value="Class 2">Class 2</option>
+                  <option value="Class 3">Class 3</option>
+                  <option value="Class 4">Class 4</option>
+                  <option value="Class 5">Class 5</option>
+                  <option value="Class 6">Class 6</option>
+                  <option value="Class 7">Class 7</option>
+                  <option value="Class 8">Class 8</option>
+                  <option value="Class 9">Class 9</option>
+                  <option value="Class 10">Class 10</option>
+                  <option value="Class 11">Class 11</option>
+                  <option value="Class 12">Class 12</option>
+                </select>
               </div>
               <div class="form-group">
                 <label for="eml">Your Email</label>
