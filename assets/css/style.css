@@ -367,20 +367,22 @@ b {
   border-radius: 2rem;
   transition: transform 0.3s;
 }
-.card-self:hover {
-  background: url("../images/card/FB_cover\ image-08.png");
-  background-position: center;
-  border-radius: 2rem;
-  transform: scale(1.1, 1.1);
-}
-.card-self:hover .under-line {
-  background: var(--white-color);
-}
-.card-self:hover .card-heading {
-  color: var(--white-color);
-}
-.card-self:hover .card-text {
-  color: var(--white-color);
+@media (max-width: 1024px) {
+  .card-self:hover {
+    background: url("../images/card/FB_cover\ image-08.png");
+    background-position: center;
+    border-radius: 2rem;
+    transform: scale(1.1, 1.1);
+  }
+  .card-self:hover .under-line {
+    background: var(--white-color);
+  }
+  .card-self:hover .card-heading {
+    color: var(--white-color);
+  }
+  .card-self:hover .card-text {
+    color: var(--white-color);
+  }
 }
 
 @media (min-width: 768px) {
