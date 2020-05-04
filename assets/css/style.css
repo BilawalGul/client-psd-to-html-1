@@ -65,6 +65,7 @@ h1 {
 @media (max-width: 768px) {
   h1 {
     margin-top: 2rem;
+    font-size: 3.5rem;
   }
 }
 h2 {
@@ -314,11 +315,21 @@ b {
   color: var(--black-color);
   font-family: var(--cfb-font);
 }
+@media (max-width: 768px) {
+  .heading-secondary {
+    font-size: 3.3rem;
+  }
+}
 .we-are-paragraph {
   line-height: 2.6rem;
   font-size: 1.8rem;
   color: #717476;
   font-family: var(--cfb-font);
+}
+@media (max-width: 768px) {
+  .we-are-paragraph {
+    font-size: 1.6rem;
+  }
 }
 
 /* what section */
@@ -331,6 +342,11 @@ b {
   font-size: 1.8rem;
   color: #717476;
   font-family: var(--cfb-font);
+}
+@media (max-width: 768px) {
+  .what-are-paragraph {
+    font-size: 1.6rem;
+  }
 }
 
 /* card section */
@@ -419,6 +435,11 @@ b {
   color: #717476;
   font-family: var(--cfb-font);
 }
+@media (max-width: 768px) {
+  .smart-paragraph {
+    font-size: 1.6rem;
+  }
+}
 
 /* icons section */
 .icon-box {
@@ -449,6 +470,11 @@ b {
   font-family: var(--cfb-font);
   color: #888b8d;
   line-height: 3.4rem;
+}
+@media (max-width: 768px) {
+  .contant-paragraph {
+    font-size: 1.6rem;
+  }
 }
 .contact-button {
   margin-top: 3rem;
@@ -482,6 +508,11 @@ b {
   font-family: var(--down-para-font);
   margin-top: 1rem;
 }
+@media (max-width: 768px) {
+  .footer-paragraph {
+    font-size: 1.6rem;
+  }
+}
 .footer-info {
   margin-top: 2rem;
 }
@@ -511,8 +542,17 @@ b {
   border: 1px solid var(--white-color);
   margin-bottom: 1rem;
 }
+
 .footer-info > a > i {
   font-size: 1.8rem;
+}
+@media (max-width: 768px) {
+  .footer-info > a {
+    font-size: 1.6rem;
+  }
+  .footer-info > a > i {
+    font-size: 1.6rem;
+  }
 }
 .footer-info > a:hover {
   background: #267a3b;
