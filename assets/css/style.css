@@ -367,7 +367,7 @@ b {
   border-radius: 2rem;
   transition: transform 0.3s;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .card-self:hover {
     background: url("../images/card/FB_cover\ image-08.png");
     background-position: center;
