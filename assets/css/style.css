@@ -126,7 +126,7 @@ b {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 57%;
+  width: 45%;
   padding: 0px;
   margin: 0px;
 }
@@ -301,7 +301,6 @@ b {
   font-size: 1.8rem;
 }
 .hero-button:hover {
-  font-size: 1.9rem;
   color: var(--primary-color);
 }
 
@@ -367,7 +366,7 @@ b {
   border-radius: 2rem;
   transition: transform 0.3s;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .card-self:hover {
     background: url("../images/card/FB_cover\ image-08.png");
     background-position: center;
@@ -496,7 +495,6 @@ b {
 }
 .contact-button > a:hover {
   color: var(--white-color);
-  font-size: 1.9rem;
 }
 
 .footer {
@@ -544,6 +542,10 @@ b {
   border: 1px solid var(--white-color);
   margin-bottom: 1rem;
 }
+.contact > a {
+  border: none;
+  font-family: var(--down-para-font);
+}
 
 .footer-info > a > i {
   font-size: 1.8rem;
@@ -558,6 +560,10 @@ b {
 }
 .footer-info > a:hover {
   background: #267a3b;
+}
+.contact > a:hover {
+  color: #267a3b;
+  background: none;
 }
 .crd {
   margin-top: 4rem;
@@ -599,6 +605,7 @@ option {
   background: #267a3b;
   padding-top: 1rem;
   color: #fff;
+  margin: auto;
 }
 
 /* segment section */
