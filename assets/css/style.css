@@ -563,3 +563,7 @@ option {
 .segment-section {
   margin: 5rem 0rem;
 }
+
+.main {
+  background: url("../images/background.png");
+}
