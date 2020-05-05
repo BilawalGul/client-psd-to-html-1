@@ -540,11 +540,15 @@ b {
   display: inline-block;
   padding: 1rem 1.5rem 0.6rem 1.5rem;
   border: 1px solid var(--white-color);
-  margin-bottom: 1rem;
 }
-.contact > a {
+.contact > div {
+  margin-top: 3rem;
+}
+.contact > div > a {
   border: none;
   font-family: var(--down-para-font);
+  color: var(--white-color);
+  font-size: 2rem;
 }
 
 .footer-info > a > i {
